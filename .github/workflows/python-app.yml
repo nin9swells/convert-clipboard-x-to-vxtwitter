@@ -27,17 +27,12 @@ jobs:
     - name: Run PyInstaller
       run: |
         python -m PyInstaller --onefile convert-clipboard-x-to-vxtwitter.py
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: convert-clipboard-x-to-vxtwitter
-        path: convert-clipboard-x-to-vxtwitter.exe
-      
+
     - name: Release
       uses: softprops/action-gh-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         files: |
-          convert-clipboard-x-to-vxtwitter.exe
+          dist\convert-clipboard-x-to-vxtwitter.exe
     
