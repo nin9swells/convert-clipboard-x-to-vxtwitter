@@ -1,3 +1,5 @@
+# initial release
+
 import re
 import win32clipboard
 import win32con
