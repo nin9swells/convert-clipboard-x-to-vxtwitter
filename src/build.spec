@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['convert-clipboard-x-to-vxtwitter.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[],
