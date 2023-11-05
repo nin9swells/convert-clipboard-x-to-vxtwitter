@@ -3,17 +3,17 @@
 ## Description
 This script monitors the clipboard for URLs containing 'x.com' and modifies them to 'vxtwitter.com'. It continuously checks the clipboard for changes and performs the URL modification when a matching URL is found.
 
-# How to use
+## How to use
 1. Download the executable
 2. Right click the executable
 3. Click "Run as administrator"
 
-# Build
+## Build
 
-## Requirements
+### Requirements
 See the `requirements.txt` file for a list of required packages.
 
-## Build command 
+### Build command 
 The executable is built using pyinstaller
 
 ```
