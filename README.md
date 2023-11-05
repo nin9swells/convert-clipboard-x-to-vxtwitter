@@ -8,6 +8,9 @@ This script monitors the clipboard for URLs containing 'x.com' and modifies them
 2. Open executable
 
 ## Build
+This repository is using GitHub Action that will automatically build new executable when there is new git tag.
+
+If you're looking for manual build, see these sections below.
 
 ### Requirements
 See the `requirements.txt` file for a list of required packages.
